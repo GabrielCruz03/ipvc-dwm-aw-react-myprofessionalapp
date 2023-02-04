@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@200,300,400,500,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@1,500&display=swap");
+
+
+.quote-container{
+    margin: auto;
+    margin-top: 125px;
+    margin-bottom: 200px;
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 35px;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 10px 12px 10px 0px rgba(0, 0, 0, 0.5);
+    border: 3px solid #0333e1;
+}
+
+.quote-container .botao-nova{
+    padding: 15px;
+    cursor: pointer;
+    width: 200px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, .5);
+    box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.5);
+    transition: all 300ms ease-in;
+    background-color: #0333e1;
+    color: white;
+}
+
+.quote-container .botao-gohome{
+    padding: 5px;
+    cursor: pointer;
+    width: 180px;
+    font-size: 15px;
+    margin-bottom: 5px;
+    outline: none;
+    border-radius: 2px;
+    border: 1px solid rgba(0, 0, 0, .5);
+    transition: all 300ms ease-in;
+}
+
+.quote-container .botao-nova:hover{
+    box-shadow: 0px 1px 3px #f5f5f5;
+}
+
+.quote-container .botao-gohome:hover{
+    background-color: #000000c4;
+    color: white;
+}
+
+.quote-container .titulo {
+    font-size: 2.0rem;
+    color: #0333e1;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.quote-container .citacoes {
+    font-family: "Grandstander", cursive;
+    font-size: 1.2rem;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.quote-container .autor {
+    font-family: "Grandstander", cursive;
+    font-size: 1.1rem;
+    font-style: normal;
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+@media only screen and (max-width: 600px) {
+	.quote-container{
+        width: 80%;
+        padding: 25px;
+    }
+    .quote-container .titulo{
+        font-size: 1.8rem;
+    }
+    .quote-container .citacoes{
+        font-size: 1.1rem;
+    }
+    .quote-container .autor{
+        font-size: 1rem;
+    }
+    .quote-container .botao-nova{
+        padding: 10px;
+        width: 175px
+    }
+    .quote-container .botao-gohome{
+        padding: 5px;
+        width: 150px;
+        font-size: 14px;
+    }
+    
+}
